@@ -16,3 +16,5 @@ CREATE TABLE invoices (id INT PRIMARY KEY,total_amount DECIMAL,generated_at TIME
 CREATE TABLE invoice_items (id INT PRIMARY KEY,unit_price DECIMAL,quantity INT,total_price DECIMAL,invoice_id INT,treatment_id INT);
 
 
+ALTER TABLE medical_histories ADD CONSTRAINT fk_patientID FOREIGN KEY(patient_id) REFERENCES patients(id);
+ALTER TABLE medical_histories ADD CONSTRAINT fk_treatmentID FOREIGN KEY(id) REFERENCES treatments(id);
