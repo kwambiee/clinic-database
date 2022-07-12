@@ -1,31 +1,47 @@
-# curriculum-databases-projects-template
+# Clinic Database
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This repository contains a database that has postgresql syntax which uses database schema diagram to form a database.
 
+## Setup
 
-## Getting Started
+-[schema_based_on_diagram.sql](./schema.sql) entails SQL syntax to create tables for clinic database.
 
-This repository includes files with plain SQL that can be used to recreate a database:
+### Prerequisites
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- Postgresql
 
+### Getting Started
+
+To view the SQL syntax for creating the database and populating the table;
+
+    a) Clone the project
+
+        ```terminal
+        git@github.com:kwambiee/clinic-database.git
+        ```
+    b) View the folder
+        - cd into the project directory
+
+            ```terminal
+            cd clinic-database.git
+            ```
+
+- **Congrats!** you can now view the queries in your local computer.
 
 ## Authors
 
-👤 **Author1**
+👤 **Joy Kwamboka**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Github: [@kwambiee](https://github.com/kwambiee)
+- Twitter: [@kwambiee](https://twitter.com/kwambiee)
+- Linkedin: [Joy Kwamboka](https://www.linkedin.com/in/joy-kwamboka)
+- E-mail: kwambokaj2.jk@gmail.com
 
-👤 **Author2**
+👤 **Ndashimiye Odalton**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
+- Twitter: [@odaltongain](https://twitter.com/odaltongain)
+- LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
 
 ## 🤝 Contributing
 
@@ -41,8 +57,4 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- etc.
