@@ -18,4 +18,4 @@ CREATE TABLE invoice_items (id INT PRIMARY KEY,unit_price DECIMAL,quantity INT,t
 ALTER TABLE medical_histories ADD CONSTRAINT fk_patientID FOREIGN KEY(patient_id) REFERENCES patients(id);
 ALTER TABLE medical_histories ADD CONSTRAINT fk_treatmentID FOREIGN KEY(id) REFERENCES treatments(id);
 ALTER TABLE invoice_items ADD CONSTRAINT fk_invoice FOREIGN KEY(treatment_id) REFERENCES treatments(id);
-ALTER TABLE invoice_items ADD CONSTRAINT fk_invoiceItem FOREIGN KEY(invoice_id) REFERENCES invoices(id);
+ALTER TABLE invoice_items ADD CONSTRAINT fk_invoiceItems FOREIGN KEY(invoice_id) REFERENCES invoices(id);
