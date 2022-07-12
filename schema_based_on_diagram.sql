@@ -1,6 +1,5 @@
 /* Database schema to keep the structure of entire database. */
 
-/* Database schema to keep the structure of entire database. */
 
 CREATE TABLE medical_histories (
     ID INT PRIMARY KEY,
